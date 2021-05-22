@@ -1,13 +1,3 @@
-<html>
-    <body style="background:-webkit-linear-gradient(blue,green)">        
-        <img id="dog" style="position:absolute; width:50px; top:500px; left:300px; -webkit-transition:all 0.2s;" src="C:\Users\Jarre\OneDrive\Documents\dog.png">
-        <img id="bone" style="position:absolute; width:50px; top:0px; left:0px; -webkit-transition:all 0.2s;" src="C:\Users\Jarre\OneDrive\Documents\bone.png">
-        <p id="scoreTB" style="position:absolute; left:50px; color:yellow; font-size:28px; font-family:Arial">Score: 0</p>
-        <p id="livesTB" style="position:absolute; right:50px; color:yellow; font-size:28px; font-family:Arial">Lives: 3</p>
-    </body>
-    <script>
-/** code above script tag will set the background color, add te dog & bone images, add a place to show the score and add a place to show the amount of lives remaining **/
-
 /** Create variables to store the score, number of lives, and dog and bone coordinates**/
 var score=0 , lives=3, dogX=6, dogY=10, boneX=8, boneY=0;
 
@@ -98,5 +88,3 @@ var score=0 , lives=3, dogX=6, dogY=10, boneX=8, boneY=0;
 /** Reload the page and make the game start again when ok button is pressed**/
             location.reload();             
         }
-    </script>
-</html>
